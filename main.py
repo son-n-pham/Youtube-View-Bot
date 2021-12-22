@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 WEBPAGE = "https://www.youtube.com/watch?v=ueGjwnifFck"
 
 # Varied watching time from 30 to 50s to prevent Youtube algorithm to recognize the bot.
-WATCH_TIME = random.randint(30, 50)
+WATCH_TIME = random.randint(40, 60)
 
 NUMBER_OF_DRIVERS = 1
 
